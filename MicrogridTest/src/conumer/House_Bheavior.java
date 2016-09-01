@@ -37,6 +37,7 @@ public class House_Bheavior extends ContractNetInitiator {
 		DFsearch power = new DFsearch();
 		result = power.busca(myagent, sd);
 		String ID;
+		
 		ACLMessage request = new ACLMessage(ACLMessage.CFP);
 		for (int i = 0; i < result.length; i++) {
 			/*
